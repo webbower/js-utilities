@@ -1,0 +1,18 @@
+{
+  "name": "@webbower/model",
+  "version": "1.0.0",
+  "description": "Base Model factory to provide a better primitive for domain data objects",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "3.5.3",
+    "chokidar-cli": "3.0.0",
+    "esm": "3.2.25",
+    "prettier": "2.7.1",
+    "riteway": "6.3.1",
+    "tap-nirvana": "1.1.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test riteway -r esm src/**/*.test.js | tap-nirvana",
+    "watch": "NODE_ENV=test chokidar src -c \"clear && yarn run -s test\" --initial --silent"
+  }
+}
