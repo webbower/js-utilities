@@ -19,3 +19,8 @@ no guarantee of quality out of the box. You need to vet my code for yourself.
 
 Create Model constructors for your domain data needs. Never use POJOs for domain
 data again.
+
+### [React Hooks](./packages/react-hooks/README.md)
+
+Custom utility hooks for improved semantics and reduced boilerplate for common
+use cases.
