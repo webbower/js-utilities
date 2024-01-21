@@ -19,6 +19,10 @@ no guarantee of quality out of the box. You need to vet my code for yourself.
 
 General purpose composition functions
 
+### [HTTP](./packages/http/README.md)
+
+HTTP request and response utilities
+
 ### [Model](./packages/model/README.md)
 
 Create Model constructors for your domain data needs. Never use POJOs for domain
