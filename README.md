@@ -24,3 +24,7 @@ data again.
 
 Custom utility hooks for improved semantics and reduced boilerplate for common
 use cases.
+
+### [React Primitives](./packages/react-primitives/README.md)
+
+Low level utilities for various purposes in React.
