@@ -15,6 +15,10 @@ no guarantee of quality out of the box. You need to vet my code for yourself.
 
 ## Packages
 
+### [Composers](./packages/composers/README.md)
+
+General purpose composition functions
+
 ### [Model](./packages/model/README.md)
 
 Create Model constructors for your domain data needs. Never use POJOs for domain
