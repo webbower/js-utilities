@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "chokidar": "3.5.3",
+    "chokidar-cli": "3.0.0",
+    "riteway": "7.0.0"
+  }
+}
